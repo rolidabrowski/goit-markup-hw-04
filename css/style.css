@@ -114,10 +114,14 @@ body {
 
 .hero-bg {
   background-color: var(--color-grey-background);
+  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('/images/hero/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero-box {
-  background-color: var(--color-grey-background);
   align-items: center;
   display: flex;
   flex-direction: column;
