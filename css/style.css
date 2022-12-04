@@ -265,7 +265,7 @@ body {
 .name-box {
   display: block;
   text-align: center;
-  padding: 30px 0;
+  padding-top: 30px;
 }
 
 .name-text {
@@ -281,6 +281,33 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-grey-text);
   margin-top: 10px;
+}
+
+.social-links-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0 30px 0;
+}
+
+.social-link {
+  display: block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  fill: rgb(175, 177, 184);
+}
+
+.social-links-box > .social-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link:hover,
+.social-link:hover {
+  fill: var(--color-white);
+  background-color: var(--color-blue);
+  border-radius: 50%;
 }
 
 .footer-bg {
