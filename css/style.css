@@ -169,13 +169,22 @@ body {
   padding-right: 30px;
 }
 
+.advantages-group {
+  background: rgb(245, 244, 250);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 100px;
+}
+
 .advantages {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin: 30px 0 10px 0;
 }
 
 .text {
