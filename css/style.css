@@ -317,14 +317,14 @@ body {
   display: block;
 }
 
-.clients-list {
+.clients-box {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
 
-.clients-list > .client-link:not(:last-child) {
+.clients-box > .client-link:not(:last-child) {
   margin-right: 30px;
 }
 
