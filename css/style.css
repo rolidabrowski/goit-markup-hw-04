@@ -85,27 +85,32 @@ body {
 .contact {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  padding-left: 371px;
+  padding-left: 345px;
 }
 
 .contact > .item:not(:last-child) {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
-.contact .contact-link {
+.contact-link {
   display: block;
-  justify-content: space-between;
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--color-grey-text);
+  fill: rgb(117, 117, 117);
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: var(--color-blue);
+  fill: var(--color-blue);
+}
+
+.contact-icon {
+  margin-right: 7px;
+  vertical-align: text-top;
 }
 
 .main-bg {
