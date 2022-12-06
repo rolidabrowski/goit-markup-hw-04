@@ -355,7 +355,7 @@ body {
 .page-footer {
   background-color: var(--color-grey-background);
   display: flex;
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 
 .logo-footer {
@@ -367,14 +367,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-white);
   width: 145px;
-  margin-left: 215px;
 }
 
 .footer-list {
   list-style: none;
   display: block;
   width: 246px;
-  margin: 20px 0 0 215px;
+  margin-top: 20px;
 }
 
 .footer-item {
